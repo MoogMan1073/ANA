@@ -119,22 +119,3 @@ void readPH()
 	delay(10);
 }
 
-void gayB(String s)
-{
-	if (s.equals("117"))
-	{
-		lcd.clear();
-		lcd.setCursor(0, 3);
-		lcd.print("TAYLOR");
-		lcd.setCursor(2, 4);
-		lcd.print("U R GAYYY");
-		for (int i; i < 10; i++)
-		{
-			lcd.noBacklight();
-			delay(50);
-			lcd.backlight();
-			delay(50);
-		}
-		lcd.clear();
-	}
-}

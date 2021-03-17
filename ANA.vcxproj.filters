@@ -21,11 +21,5 @@
     <ClInclude Include="__vm\.ANA.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Downloads\IndoorGardeningAssistantR1\IndoorGardeningAssistantR1\config.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Downloads\IndoorGardeningAssistantR1\IndoorGardeningAssistantR1\setup.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
