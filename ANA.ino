@@ -48,7 +48,6 @@ void loop()
 		{
 			lcd.clear();
 			msg.remove(msg.length() - 1, 1);
-			gayB(msg);
 			Serial.println(msg);
 			msg = "";
 		}
